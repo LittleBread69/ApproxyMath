@@ -1,5 +1,4 @@
 def apxsqrt(x: int):
-    #print("x = " + str(x))
     if x < 0:
         raise ValueError("Cannot compute the square root of a negative number :({}".format(x) + ")")
     if x == 0:
@@ -24,12 +23,3 @@ def prcsqrt(x: float or int):
         raise ValueError("Cannot compute the square root of a negative number: ({}".format(x) + ")")
     else:
         return x ** 0.5
-    
-#print(apxsqrt(-14))
-#print(apxsqrt(100))
-#print(apxsqrt(48))
-#print(apxsqrt(39))
-#print(apxsqrt(87))
-#print(apxsqrt)
-
-#print(prcsqrt)
