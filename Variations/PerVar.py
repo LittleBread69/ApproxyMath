@@ -1,7 +1,9 @@
 from random import random
 
-def OOvar(x: float or int):
+def OOvar(value: float, variation: int):
+    #percent variations
     pass
 
-def OOOvar(x: float or int):
+def OOOvar(value: float, variation: int):
+    #permile variations
     pass
