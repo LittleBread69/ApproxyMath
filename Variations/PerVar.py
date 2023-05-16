@@ -2,8 +2,20 @@ from random import random
 
 def OOvar(value: float, variation: int):
     #percent variations
-    pass
+    vl = value
+    vr = variation
+    
+    vl += random(0, (vr/100))
+    vl -= random(0, (vr/100))
+    
+    return vl
 
 def OOOvar(value: float, variation: int):
     #permile variations
-    pass
+    vl = value
+    vr = variation
+    
+    vl += random(0, (vr/1000))
+    vl -= random(0, (vr/1000))
+    
+    return vl
