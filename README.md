@@ -1,4 +1,4 @@
 # ApproxyMath
 EN: ApproxyMath is a code collection that enables "human-like" calculations, meaning calculations with a precision comparable to that of an average human without using a calculator. This is not a serious project, and there is no guarantee that the code works or performs its intended functions. It is a project released under the MIT license and is intended to be a fun experiment.
 
-FR: ApproxyMath est un receuil de code qui permet de faire des calculs "humains", c'est à dire, avec une précision digne d'un être humain lambda sans calculatrice. Ceci n'est pas un projet sérieux et il n'y a aucune garantie que le code fonctionne ou qu'il face ce qu'il doit faire. Il s'agit d'un project sous la licence MIT qui ce veut être un simple délire.
+FR: ApproxyMath est un receuil de code qui permet de faire des calculs "humains", c'est à dire, avec une précision digne d'un être humain lambda sans calculatrice. Ceci n'est pas un projet sérieux et il n'y a aucune garantie que le code fonctionne ou qu'il face ce qu'il doit faire. Il s'agit d'un project sous la licence MIT qui ce veut être un simple délire. Amusez-vous avec ce code !
