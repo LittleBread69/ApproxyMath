@@ -11,6 +11,6 @@ FR: ApproxyMath est un receuil de code qui permet de faire des calculs "humains"
   
   FR: ApproxyMath se montre être plus lent que les fonctions incluent avec Python3, toutefois il faut comprendre que les performances ne sont pas vraiment prises en compte ici. Le but n'est pas d'avoir un code parfait ni optimisé. Le but est d'avoir un code qui fonctionne et qui se rapproche de ce que l'on shouaite qu'il délivre.
 #### Possible transition to a faster language ?
-  FR: Suite à l'annonce de Mojo, la possibilité de changer pour un language de programmation plus performant se propose, que ce soit Mojo ou tout autre language de programmation.
+  FR: Suite à l'annonce de Mojo🔥, la possibilité de changer pour un language de programmation plus performant se propose, que ce soit Mojo🔥 ou tout autre language de programmation.
   
   EN: Following the announcement of Mojo🔥, the possibility of switching to a more performant programming language is being considered, whether it is Mojo🔥 itself or any other programming language.
