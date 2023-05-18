@@ -1,0 +1,3 @@
+[build-system]
+requires = ["pypy"]
+build-backend = "poetry.masonry.api"
