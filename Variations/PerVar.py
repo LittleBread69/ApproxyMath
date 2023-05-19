@@ -1,12 +1,12 @@
-from random import random
+from random import uniform
 
 def OOvar(value: float, variation: int):
     #percent variations
     vl = value
     vr = variation
     
-    vl += random(0, (vr/100))
-    vl -= random(0, (vr/100))
+    vl += uniform(0, (vr/100))
+    vl -= uniform(0, (vr/100))
     
     return vl
 
@@ -15,7 +15,7 @@ def OOOvar(value: float, variation: int):
     vl = value
     vr = variation
     
-    vl += random(0, (vr/1000))
-    vl -= random(0, (vr/1000))
+    vl += uniform(0, (vr/1000))
+    vl -= uniform(0, (vr/1000))
     
     return vl
