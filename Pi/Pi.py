@@ -1,4 +1,4 @@
-pi = 3.14159265359
+pi = 3.1415926535897932384626433
 shortpi = 3.14
 spi = shortpi
 integerpi = 3
