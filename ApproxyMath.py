@@ -8,3 +8,4 @@ from Variations.PerVar import *
 from Euler.e import *
 p_e = lene(6)
 c_e = ecalc(16777216)
+from SquareRoot.SqrtConst import *

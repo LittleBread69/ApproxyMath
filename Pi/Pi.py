@@ -8,3 +8,6 @@ def lenpi(length: int):
     l = length
     newpi = round(pi,(l-1))
     return newpi
+
+tau = 2 * pi
+stau = 2 * spi
