@@ -18,7 +18,7 @@ def apxsqrt(x: int):
             else:             
                 return x
 
-def prcsqrt(x: float or int):
+def prcsqrt(x: float):
     if x < 0:
         raise ValueError("Cannot compute the square root of a negative number: ({}".format(x) + ")")
     else:
