@@ -5,7 +5,7 @@ def lene(length: int):
     newe = round(e,(l-1))
     return newe
 
-def ecalc(precision: float or int):
+def ecalc(precision: float):
     n = precision
     return ((1 + (1/n))**n)
 
