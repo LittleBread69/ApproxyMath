@@ -1,4 +1,4 @@
-def aprxAbs(x: float or int):
+def aprxAbs(x: float):
     if x >= 0:
         return x
     elif x < 0:
