@@ -7,5 +7,5 @@ def eshort(length: int):
 def pishort(lenght: int):
     return lenpi(lenght)
 
-def shorten(value: float or int, lenght: int):
+def shorten(value: float, lenght: int):
     return round(value, lenght)
