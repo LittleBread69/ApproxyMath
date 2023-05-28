@@ -16,6 +16,14 @@ FR: ApproxyMath est un receuil de code qui permet de faire des calculs "humains"
   
 #### Possible transition to a faster language ?
 
-  FR: Suite à l'annonce de Mojo🔥, la possibilité de changer pour un language de programmation plus performant se propose, que ce soit Mojo🔥 ou tout autre language de programmation.
-  
   EN: Following the announcement of Mojo🔥, the possibility of switching to a more performant programming language is being considered, whether it is Mojo🔥 itself or any other programming language.
+
+  FR: Suite à l'annonce de Mojo🔥, la possibilité de changer pour un language de programmation plus performant se propose, que ce soit Mojo🔥 ou tout autre language de programmation.
+
+#### What version of Python does it support ?
+  
+  EN: ApproxyMath only supports Python3, thus Python2 is unsupported. The code is written in Python3.10 and is made to be executable using the integrated python3 interpreter and PyPy3's interpreter.
+  The curent supported Python versions are Python3.10 and PyPy3.10, Python3.8 and Python3.9 had issues with execution and are deemed unsupported and unstable currently.
+
+  FR: ApproxyMath ne prend en charge que Python3 et n'est pas compatible avec Python2. Le code est écrit en Python3.10 et peut être exécuté à l'aide de l'interpréteur intégré de Python3 ainsi que de l'interpréteur de pypy3.
+  Les versions de Python actuellement prises en charge pour ApproxyMath sont Python 3.10 et PyPy3.10. Les versions Python 3.8 et Python 3.9 ont rencontré des problèmes lors de l'exécution et sont considérées comme non prises en charge et instables actuellement.
