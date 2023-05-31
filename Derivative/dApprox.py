@@ -1,5 +1,5 @@
 from Check.CheckFunc import checkFunc as cFnc
-
+##Doesn't work currently.
 def tan(func: str):
     f = func
     af = []
