@@ -7,3 +7,4 @@ def tan(func: str):
         pass
     else:
         cFnc(f)
+        return f
