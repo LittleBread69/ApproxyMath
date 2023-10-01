@@ -1,0 +1,4 @@
+emptystr = ''
+emtstr = ''
+estr = ''
+østr = ''

@@ -1,11 +1,11 @@
 from Euler.e import lene
 from Pi.Pi import lenpi
 
-def eshort(length: int):
+def eshort(length: int) -> float:
     return lene(length)
 
-def pishort(lenght: int):
+def pishort(lenght: int) -> float:
     return lenpi(lenght)
 
-def shorten(value: float, lenght: int):
+def shorten(value: float, lenght: int) -> float:
     return round(value, lenght)

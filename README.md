@@ -27,3 +27,4 @@ FR: ApproxyMath est un receuil de code qui permet de faire des calculs "humains"
 
   FR: ApproxyMath ne prend en charge que Python3 et n'est pas compatible avec Python2. Le code est écrit en Python3.10 et peut être exécuté à l'aide de l'interpréteur intégré de Python3 ainsi que de l'interpréteur de pypy3.
   Les versions de Python actuellement prises en charge pour ApproxyMath sont Python 3.10 et PyPy3.10. Les versions Python 3.8 et Python 3.9 ont rencontré des problèmes lors de l'exécution et sont considérées comme non prises en charge et instables actuellement.
+  
