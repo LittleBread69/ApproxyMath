@@ -11,7 +11,8 @@ c_e = ecalc(16777216)
 from SquareRoot.SqrtConst import *
 from Utilities.Shorter.Shorten import *
 from Utilities.Other.Utils import *
-from pprint import pprint
+from Utilities.RGB.RGB_Tools import *
+from pprint import pprint 
 
 def help():
     pprint("ApproxyMath is small and polyvalent math (and other) approximation library.")
