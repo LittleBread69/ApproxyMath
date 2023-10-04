@@ -59,4 +59,4 @@ def Moebius_Convertion(r:int, g:int, b:int):
         return(255, 255, 255)
     else:
         MC = 0
-        return 
+        return round(r*(r/255))
