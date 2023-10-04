@@ -47,3 +47,16 @@ def mto255(r:int, g:int, b:int):
             if b != 0:
                 m = (255-b)
     return(round(r+m), round(g+m), round(b+m))
+    
+def Moebius_Convertion(r:int, g:int, b:int):
+    if r not in range(0, 255):
+        raise ValueError(f'r not in range 0-255. r = {r}')
+    elif g not in range(0, 255):
+        raise ValueError(f'g not in range 0-255. g = {g}')
+    elif b not in range(0, 255):
+        raise ValueError(f'b not in range 0-255. b = {b}')
+    elif r== 0 and g == 0 and b == 0:
+        return(255, 255, 255)
+    else:
+        MC = 0
+        return 
