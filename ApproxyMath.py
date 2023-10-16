@@ -13,6 +13,7 @@ from Utilities.Shorter.Shorten import *
 from Utilities.Other.Utils import *
 from Utilities.RGB.RGB_Tools import *
 from pprint import pprint 
+from Biology.Genetics import *
 
 def help():
     pprint("ApproxyMath is small and polyvalent math (and other) approximation library.")
