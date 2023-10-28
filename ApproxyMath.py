@@ -12,18 +12,16 @@ from SquareRoot.SqrtConst import *
 from Utilities.Shorter.Shorten import *
 from Utilities.Other.Utils import *
 from Utilities.RGB.RGB_Tools import *
-from pprint import pprint 
+#from pprint import pprint 
 from Biology.Genetics import *
+from HW.ScreenUtils.AspectRatio import *
 
 def help():
-    pprint("ApproxyMath is small and polyvalent math (and other) approximation library.")
-    pprint("Type 'Commands()' to get a list of all the commands and what they do.")
-    pprint("Please read the documentation for more informations.")
+    print("ApproxyMath is small and polyvalent math (and other) approximation library.")
+    print("Type 'Commands()' to get a list of all the commands and what they do.")
+    print("Please read the documentation for more informations.")
 
 def commands():
-    pprint("LIST of COMMANDS:")
-    pprint('\n'+"aprxAbs()\n    Approximates the absolute value of any float.\n")
-    pprint('lene()\n'+"    Custom lenght of the Euleur number: e.\n")
-
-pprint(shorten(InfAbs(8.4), 14))
-pprint(InfAbs(8.4, 'sin'))
+    print("LIST of COMMANDS:")
+    print('\n'+"aprxAbs()\n    Approximates the absolute value of any float.\n")
+    print('lene()\n'+"    Custom lenght of the Euleur number: e.\n")
