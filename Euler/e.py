@@ -5,9 +5,4 @@ def lene(length: int):
     newe = round(e,(l-1))
     return newe
 
-def ecalc(precision: float):
-    n = precision
-    return ((1 + (1/n))**n)
-
-shorte = 2.71828
-se = shorte
+short_e = 2.71828

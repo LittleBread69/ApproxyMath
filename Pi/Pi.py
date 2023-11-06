@@ -1,13 +1,11 @@
 pi = 3.1415926535897932384626433
-shortpi = 3.14
-spi = shortpi
-integerpi = 3
-ipi = integerpi
+short_pi = 3.14
+int_pi = 3
 
 def lenpi(length: int):
     l = length
     newpi = round(pi,(l-1))
     return newpi
 
-tau = 2 * pi
-stau = 2 * spi
+tau = 6.283185307179586
+short_tau = 6.28
