@@ -1,4 +1,4 @@
-def kto255(r:int, g:int, b:int):
+def Moebius_K(r:int, g:int, b:int) -> tuple[int, int, int]:
     k = 0
     if r not in range(0, 255):
         raise ValueError(f'r not in range 0-255. r = {r}')
@@ -23,7 +23,7 @@ def kto255(r:int, g:int, b:int):
                 k = (b/255)
     return(round(r/k), round(g/k), round(b/k))
     
-def mto255(r:int, g:int, b:int):
+def Moebius_M(r:int, g:int, b:int) -> tuple[int, int, int]:
     m = 0
     if r not in range(0, 255):
         raise ValueError(f'r not in range 0-255. r = {r}')
@@ -47,16 +47,13 @@ def mto255(r:int, g:int, b:int):
             if b != 0:
                 m = (255-b)
     return(round(r+m), round(g+m), round(b+m))
+
+def Moebius_N(r:int, g:int, b:int) -> tuple[int, int, int]:
+    y = (0,0,0)
+    for i in range(2):
+        y += Moebius_K(r, g, b)
+    for i in range(3):
+        y += Moebius_M(r,g,b)
+    y = (y[0]/5, y[1]/5, y[2]/5)
+    return round(y[0]), round(y[1]), round(y[2])
     
-def Moebius_Convertion(r:int, g:int, b:int):
-    if r not in range(0, 255):
-        raise ValueError(f'r not in range 0-255. r = {r}')
-    elif g not in range(0, 255):
-        raise ValueError(f'g not in range 0-255. g = {g}')
-    elif b not in range(0, 255):
-        raise ValueError(f'b not in range 0-255. b = {b}')
-    elif r== 0 and g == 0 and b == 0:
-        return(255, 255, 255)
-    else:
-        MC = 0
-        return round(r*(r/255))
