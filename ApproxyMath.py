@@ -5,7 +5,7 @@ p_pi = lenpi(4)
 from Chemistry.AcidAndBases import *
 from Absolute.AprxAbs import *
 from Variations.PerVar import *
-from Euler.e import *
+from Euler_Neper.e import *
 p_e = lene(6)
 from SquareRoot.SqrtConst import *
 from Utilities.Shorter.Shorten import *
@@ -15,6 +15,10 @@ from Utilities.RGB.RGB_Tools import *
 from Biology.Genetics import *
 from HW.ScreenUtils.AspectRatio import *
 from Life.Catenary import *
+from Euler_Neper.ln import *
+from Fibonacci.fibonacci import *
+from Specific_Equations.xrootx import *
+from Trigonometry.cos_sin_tan import *
 
 lnpx = 0.6137056388802 #ln(x) + lnpx
 
