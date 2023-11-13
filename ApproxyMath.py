@@ -16,6 +16,8 @@ from Biology.Genetics import *
 from HW.ScreenUtils.AspectRatio import *
 from Life.Catenary import *
 
+lnpx = 0.6137056388802 #ln(x) + lnpx
+
 def help():
     print("ApproxyMath is small and polyvalent math (and other) approximation library.")
     print("Type 'Commands()' to get a list of all the commands and what they do.")
