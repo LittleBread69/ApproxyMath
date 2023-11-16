@@ -1,0 +1,37 @@
+LIST of COMMANDS:
+
+Abs()
+    Calculates the absolute of any value.
+
+InfAbs()
+    If mode='prs', then gives the precise value of a linear osciliation function between 0 and 1.
+
+    If mode='sin', then gives the appoximated value using sine and cosine.
+
+Morgan()
+    Gives the distances between two genes in centiMorgans using 4 inputs.
+
+lene()
+    Returns the shortened value of e to the desired length.
+
+ln()
+    Returns the natural logarith of a value.
+
+ln_rt()
+    Returns the natural logarith adapted to intersect at one point only with the sqrt of the same value.
+
+fibonacci()
+    Returns the fibonacci value corresponding to the input.
+
+AspectRatioCalc()
+    Returns the aspect ratio of any resolution set.
+
+Catenary()
+    Gives the result of the catenary equation, by default the value o 'a' makes it so that the f(1)=1.
+
+Bridge()
+    Returns the result of the Bridge equation, which is the negative value of the catenary equation.
+
+lenpi()
+    Returns the value of pi shortened to the desired lenght.
+    

@@ -1,0 +1,3 @@
+    ApproxyMath is small and polyvalent math (and other) approximation library.
+    Type 'Commands()' to get a list of all the commands and what they do.
+    Please read the documentation for more informations.

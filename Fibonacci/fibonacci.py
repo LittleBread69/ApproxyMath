@@ -1,5 +1,4 @@
-from functools import wraps, cache
-import sys
+from functools import cache
 
 @cache
 def fibonacci(n:int) -> int:

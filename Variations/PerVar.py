@@ -1,6 +1,6 @@
 from random import uniform
 
-def OOvar(value: float, variation: int):
+def OOvar(value: float, variation: int) -> float | int:
     #percent variations
     vl = value
     vr = variation
@@ -10,7 +10,7 @@ def OOvar(value: float, variation: int):
     
     return vl
 
-def OOOvar(value: float, variation: int):
+def OOOvar(value: float, variation: int) -> float | int:
     #permile variations
     vl = value
     vr = variation
