@@ -7,3 +7,5 @@ def lenpi(length: int, pi:float=pi) -> float:
 
 tau = 6.283185307179586
 short_tau = 6.28
+
+π = pi

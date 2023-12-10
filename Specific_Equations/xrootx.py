@@ -1,6 +1,6 @@
-from functools import cache
+from functools import lru_cache
 
-@cache
+@lru_cache()
 def xrootx(x:float|int|str) -> float|int: #type:ignore
     if x == 'max':
         return xrootx(2.718)
