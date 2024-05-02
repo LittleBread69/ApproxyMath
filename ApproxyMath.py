@@ -23,6 +23,7 @@ from Linear_and_Quadratic.Linear import *
 from Utilities.list_utils.list_flattening import *
 from Percent.Precision.Difference import *
 from FloorCeilRound.FloorCeilRound import *
+from Factorial.Factorial import *
 
 def help():
     with open("help.txt") as helf:

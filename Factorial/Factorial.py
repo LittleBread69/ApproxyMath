@@ -1,7 +1,10 @@
 
 def fact(x:int|float) -> int|float:
-    result:float|int = x
+    if type(x) != int and type(x) != float: raise TypeError("Not accepted")
+    isFloat = False if type(x) == int else True
+    if x < 1.0: return x
+    result:float|int = 1.0
     while x > 1:
         result *= x
         x -= 1
-    return result
+    return float(result) if isFloat else int(result)
