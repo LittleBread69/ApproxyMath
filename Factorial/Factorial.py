@@ -1,5 +1,4 @@
 from functools import lru_cache
-import sys
 
 @lru_cache(512)
 def fact(x: int | float) -> int | float:
@@ -13,9 +12,3 @@ def fact(x: int | float) -> int | float:
 
     result = x * fact(x - 1)
     return float(result) if isFloat else int(result)
-
-if __name__ == '__main__':
-    print(fact(2))
-    print(fact(2.0))
-    print(fact(0.3))
-    print(fact(22))
