@@ -1,6 +1,6 @@
-from functools import lru_cache
+from functools import cache
 
-@lru_cache
+@cache
 def apxsqrt(x: int) -> float:
     if x < 0:
         raise ValueError(f"Cannot compute the square root of a negative number :({x})")
