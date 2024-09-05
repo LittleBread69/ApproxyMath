@@ -17,7 +17,6 @@ from EulerNeper.ln import *
 from Fibonacci.fibonacci import *
 from SpecificEquations.xrootx import *
 from Trigonometry.cos_sin_tan import *
-from Random.arandom import *
 from Linear_and_Quadratic.Quadratic import *
 from Linear_and_Quadratic.Linear import *
 from Utilities.list_utils.list_flattening import *
