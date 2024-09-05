@@ -1,9 +1,9 @@
-from functools import lru_cache as lcache
+from functools import cache
 
-@lcache
-def xrootx(x:float|int|str) -> float|int: #type:ignore
+@cache
+def xrootx(x:float|int|str) -> float|int:
     if x == 'max':
         return xrootx(2.718)
     elif type(x) != str:
-        return x ** (1/x) #type:ignore
+        return x ** (1/x)
     
