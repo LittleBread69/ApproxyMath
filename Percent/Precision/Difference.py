@@ -1,5 +1,5 @@
-from functools import lru_cache as lcache
+from functools import cache
 
-@lcache(512)
+@cache
 def differences(experimental_val:float, theorique_val:float) -> float:
     return (abs(theorique_val - experimental_val) / theorique_val) * 100
