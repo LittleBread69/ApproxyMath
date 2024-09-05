@@ -1,5 +1,5 @@
 from functools import cache
 
 @cache
-def differences(experimental_val:float, theorique_val:float) -> float:
-    return (abs(theorique_val - experimental_val) / theorique_val) * 100
+def differences(experimental_val:float, theoric_val:float) -> float:
+    return (abs(theoric_val - experimental_val) / theoric_val) * 100
