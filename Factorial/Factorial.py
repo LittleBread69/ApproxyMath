@@ -1,6 +1,6 @@
-from functools import lru_cache
+from functools import cache
 
-@lru_cache(512)
+@cache
 def fact(x: int | float) -> int | float:
     if type(x) not in [int, float]:
         raise TypeError("Not accepted")
